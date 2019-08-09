@@ -6,7 +6,7 @@ venue: "University of Nevada Reno"        # brief name of host site without addr
 address: "Matheson IGT Knowledge Center 107 (MIKC 107), Reno, NV"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+latlng: "39.543400,-119.815618"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "Sep 28-29, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-09-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -78,6 +78,8 @@ the pitch.
 {% elsif page.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
+
+Cost: Free. Registration: Required. <a href="https://unr.az1.qualtrics.com/jfe/form/SV_6Ebd6YyQNdKTnrD">Register for the Sep 28-29 DC Genomics Workshop here</a>.
 
 {% comment %}
 AUDIENCE
