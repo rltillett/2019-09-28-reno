@@ -72,7 +72,7 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 <strong>Cost:</strong> Free. <strong>Registration:</strong> Required. 
-<a href="https://unr.az1.qualtrics.com/jfe/form/SV_6Ebd6YyQNdKTnrD">Register for the Sep 28-29 DC Genomics Workshop here</a>.
+<a href="https://unr.az1.qualtrics.com/jfe/form/SV_6Ebd6YyQNdKTnrD">Register for the Sep 28-29 UNR Data Carpentry Genomics Workshop here</a>.
 {% if page.carpentry == "swc" %}
 {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
